@@ -2,12 +2,12 @@
 #include <vector>
 
 
-class Matrix1D
+class Vector1D
 {
 public:
-	Matrix1D();
-	Matrix1D(size_t size, double value = 0);
-	Matrix1D(const std::vector<double> data);
+	Vector1D();
+	Vector1D(size_t size, double value = 0);
+	Vector1D(const std::vector<double> data);
 
 	void resize(size_t new_size);
 	size_t get_size() const;

@@ -1,7 +1,8 @@
 cmake_minimum_required (VERSION 3.1)
 
 set(SRC 
- "src/matrix_1d_test.cpp"
+ "src/vector_1d_test.cpp"
+ "src/matrix_3d_test.cpp"
 )
 
 add_executable(MatrixLibTests ${SRC})
